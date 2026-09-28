@@ -1,0 +1,57 @@
+项目环境配置预备工作记录
+
+1. 云服务器基础信息
+实例状态:运行中；地域:华东1（杭州）；公网IP:47.114.79.108；私网IP:172.29.239.236；主机名:chat-mq-01。
+操作系统:Ubuntu 22.04.5 LTS 64位；架构:x86_64；CPU:2核；内存:8GiB；系统盘:40GiB；公网带宽:100Mbps。
+
+2. SSH远程连接
+SSH端口:22；本机配置文件:C:/Users/Marika/.ssh/config；普通运维别名:aliyun-codex；登录用户:codexops。
+认证方式:ED25519公钥免密；私钥:C:/Users/Marika/.ssh/codex_aliyun_ed25519；IdentitiesOnly:yes；连接状态:已验证成功。
+
+3. 无密码提权
+sudo免密:已启用；验证命令:sudo -n whoami；验证结果:root。
+codexops可通过sudo获得完整root权限，执行远程运维命令时无需再次输入密码。
+
+4. root直接SSH登录
+PermitRootLogin:without-password；PubkeyAuthentication:yes；PasswordAuthentication:no。
+root授权密钥:已安装；目标命令:ssh root@47.114.79.108；免密登录状态:已验证成功；远程UID:0。
+
+5. SSH安全策略
+密码认证:关闭；root密码登录:关闭；root公钥登录:开启。
+SSH来源IP限制:暂未配置；StrictHostKeyChecking:accept-new。
+
+6. Java与Maven环境
+Java版本:17.0.20.1；Maven版本:3.6.3；环境状态:命令执行正常。
+该环境可用于后续Java服务端项目的编译、测试与运行。
+
+7. RabbitMQ消息服务
+RabbitMQ状态:active；服务连通检查:rabbitmq-diagnostics ping成功。
+AMQP端口:5672；管理端口:15672；节点通信端口:25672；5672绑定:127.0.0.1；15672绑定:127.0.0.1。
+
+8. 主机防火墙
+UFW状态:inactive。
+当前主要依赖阿里云安全组控制公网入口，安全组具体规则:本次会话未修改。
+
+9. Node.js与npm环境
+Node.js版本:v24.21.0；npm版本:11.19.0；安装目录:/opt/node-v24.21.0-linux-x64。
+node命令:/usr/local/bin/node；安装目录属主:root:root；运行状态:正常。
+
+10. Codex CLI环境
+Codex CLI版本:0.158.0；命令路径:/usr/local/bin/codex；安装方式:官方npm包。
+辅助工具:bubblewrap 0.6.1、ripgrep 13.0.0；CLI运行用户:codexops。
+
+11. Codex身份认证
+登录方式:ChatGPT设备授权；登录状态:Logged in using ChatGPT。
+远程模型:gpt-6-astra；交互校验串:REMOTE_CODEX_OK；交互状态:验证成功。
+
+12. OpenAI网络代理
+本机代理地址:127.0.0.1；本机代理端口:10090；代理协议:HTTP、SOCKS5。
+SSH反向转发:127.0.0.1:10090到127.0.0.1:10090；远程绑定范围:仅服务器回环地址；公网暴露:否。
+
+13. 远程Codex代理使用条件
+HTTP_PROXY:http://127.0.0.1:10090；HTTPS_PROXY:http://127.0.0.1:10090；ALL_PROXY:socks5h://127.0.0.1:10090。
+代理持久化:否；使用条件:本机代理保持运行，且建立SSH连接时携带RemoteForward参数。
+
+14. 当前磁盘与资源验证
+根分区容量:40GiB；已使用比例:约12%；可用内存:约7.3GiB。
+基础资源状态:满足当前聊天系统开发、编译和轻量级服务部署准备需求。
