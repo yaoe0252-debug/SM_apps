@@ -55,3 +55,19 @@ HTTP_PROXY:http://127.0.0.1:10090；HTTPS_PROXY:http://127.0.0.1:10090；ALL_PRO
 14. 当前磁盘与资源验证
 根分区容量:40GiB；已使用比例:约12%；可用内存:约7.3GiB。
 基础资源状态:满足当前聊天系统开发、编译和轻量级服务部署准备需求。
+
+15. PostgreSQL双环境
+PostgreSQL版本:18.x；远程集群:18/main；远程状态:online；WSL集群:18/main；WSL状态:online。
+远程正式库:sm_chat；WSL开发库:sm_chat；WSL测试库:sm_chat_test；环境同步:不启用。
+
+16. PostgreSQL连接安全
+服务端口:5432；监听地址:localhost；公网端口:未开放；密码算法:scram-sha-256；数据库时区:UTC。
+配置错误:0行；健康检查:accepting connections；业务登录:验证成功；建表删除验证:成功。
+
+17. PostgreSQL业务角色
+业务角色:sm_chat_app；超级用户:no；创建数据库:no；创建角色:no；业务登录:允许。
+数据库属主:sm_chat_app；公共数据库权限:已回收；public模式权限:已限定至业务角色。
+
+18. PostgreSQL远程管理通道
+SSH本地转发:127.0.0.1:15432到远程127.0.0.1:5432；SSH别名:aliyun-codex；连接状态:已验证成功。
+远程监听范围:仅回环地址；阿里云安全组5432:未开放；公网暴露:否。

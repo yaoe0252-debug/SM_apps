@@ -1,0 +1,16 @@
+classpath:D:\Marika\download\soft_prac\SM_apps\chat-client\target\classes	0:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+classpath:D:\Marika\download\soft_prac\SM_apps\chat-protocol\target\chat-protocol-0.1.0-SNAPSHOT.jar	69062:1791211968003
+classpath:D:\Marika\download\soft_prac\SM_apps\chat-common\target\chat-common-0.1.0-SNAPSHOT.jar	5150:1791209889865
+classpath:C:\Users\Marika\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.22.3\jackson-databind-2.22.3.jar	1709604:1791211655229
+classpath:C:\Users\Marika\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar	84211:1791211655394
+classpath:C:\Users\Marika\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.22.3\jackson-core-2.22.3.jar	594776:1791211655927
+classpath:C:\Users\Marika\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.22.3\jackson-datatype-jsr310-2.22.3.jar	136875:1791211655767
+classpath:C:\Users\Marika\.m2\repository\org\junit\jupiter\junit-jupiter\6.1.2\junit-jupiter-6.1.2.jar	6377:1791176207942
+classpath:C:\Users\Marika\.m2\repository\org\junit\jupiter\junit-jupiter-api\6.1.2\junit-jupiter-api-6.1.2.jar	312564:1791176208502
+classpath:C:\Users\Marika\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar	14304:1776168967340
+classpath:C:\Users\Marika\.m2\repository\org\junit\platform\junit-platform-commons\6.1.2\junit-platform-commons-6.1.2.jar	175866:1791176209006
+classpath:C:\Users\Marika\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar	6806:1776168973219
+classpath:C:\Users\Marika\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar	3819:1791176208183
+classpath:C:\Users\Marika\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.1.2\junit-jupiter-params-6.1.2.jar	303145:1791176208497
+classpath:C:\Users\Marika\.m2\repository\org\junit\jupiter\junit-jupiter-engine\6.1.2\junit-jupiter-engine-6.1.2.jar	352589:1791176208446
+classpath:C:\Users\Marika\.m2\repository\org\junit\platform\junit-platform-engine\6.1.2\junit-platform-engine-6.1.2.jar	323941:1791176208553

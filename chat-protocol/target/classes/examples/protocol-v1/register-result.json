@@ -1,0 +1,11 @@
+{
+  "protocolVersion": "1.0",
+  "messageId": "11000000-0000-0000-0000-000000000001",
+  "messageType": "REGISTER_RESULT",
+  "senderId": null,
+  "timestamp": "2026-10-05T08:00:01Z",
+  "payload": {
+    "userId": "20000000-0000-0000-0000-000000000001"
+  },
+  "requestId": "10000000-0000-0000-0000-000000000001"
+}

@@ -1,0 +1,13 @@
+{
+  "protocolVersion": "1.0",
+  "messageId": "41000000-0000-0000-0000-000000000001",
+  "messageType": "FILE_READY",
+  "senderId": "20000000-0000-0000-0000-000000000001",
+  "timestamp": "2026-10-05T08:07:01Z",
+  "payload": {
+    "fileId": "50000000-0000-0000-0000-000000000001",
+    "uploadUrl": "https://chat.example.test/api/files/50000000-0000-0000-0000-000000000001/content",
+    "authorizationExpiresAt": "2026-10-05T08:17:01Z"
+  },
+  "requestId": "40000000-0000-0000-0000-000000000001"
+}

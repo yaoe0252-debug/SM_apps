@@ -1,0 +1,7 @@
+0I5wejszqngrT8Y3oJ/4bjxajt1fs0eN+2ooecDi2VE=
+src\main\java\com\smapps\chat\common\id\FileId.java 2026-10-05T14:16:47.034807Z
+src\main\java\com\smapps\chat\common\id\MessageId.java 2026-10-05T14:16:47.057420500Z
+src\main\java\com\smapps\chat\common\id\UserId.java 2026-10-05T14:16:47.080463400Z
+src\test\java\com\smapps\chat\common\id\FileIdTest.java 2026-10-05T14:16:47.091763600Z
+src\test\java\com\smapps\chat\common\id\MessageIdTest.java 2026-10-05T14:16:47.103665200Z
+src\test\java\com\smapps\chat\common\id\UserIdTest.java 2026-10-05T14:16:47.113976100Z

@@ -1,0 +1,13 @@
+{
+  "protocolVersion": "1.0",
+  "messageId": "11000000-0000-0000-0000-000000000004",
+  "messageType": "RESUME_RESULT",
+  "senderId": "20000000-0000-0000-0000-000000000001",
+  "timestamp": "2026-10-05T08:03:01Z",
+  "payload": {
+    "missingMessages": [],
+    "nextCursor": "conversation-1:42",
+    "hasMore": false
+  },
+  "requestId": "10000000-0000-0000-0000-000000000004"
+}

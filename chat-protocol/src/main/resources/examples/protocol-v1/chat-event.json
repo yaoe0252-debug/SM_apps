@@ -1,0 +1,14 @@
+{
+  "protocolVersion": "1.0",
+  "messageId": "30000000-0000-0000-0000-000000000002",
+  "messageType": "CHAT_EVENT",
+  "senderId": "20000000-0000-0000-0000-000000000001",
+  "timestamp": "2026-10-05T08:05:01Z",
+  "payload": {
+    "conversationId": "private:alice:bob",
+    "senderId": "20000000-0000-0000-0000-000000000001",
+    "text": "Private hello",
+    "serverSequence": 7
+  },
+  "requestId": "30000000-0000-0000-0000-000000000002"
+}

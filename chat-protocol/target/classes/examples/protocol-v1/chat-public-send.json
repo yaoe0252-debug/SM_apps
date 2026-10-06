@@ -1,0 +1,11 @@
+{
+  "protocolVersion": "1.0",
+  "messageId": "30000000-0000-0000-0000-000000000001",
+  "messageType": "CHAT_PUBLIC_SEND",
+  "senderId": "20000000-0000-0000-0000-000000000001",
+  "timestamp": "2026-10-05T08:04:00Z",
+  "payload": {
+    "text": "Hello everyone"
+  },
+  "requestId": null
+}

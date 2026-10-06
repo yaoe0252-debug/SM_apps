@@ -1,0 +1,13 @@
+{
+  "protocolVersion": "1.0",
+  "messageId": "60000000-0000-0000-0000-000000000001",
+  "messageType": "ERROR",
+  "senderId": null,
+  "timestamp": "2026-10-05T08:09:00Z",
+  "payload": {
+    "code": "INVALID_INPUT",
+    "message": "The request contains an invalid field",
+    "requestId": "10000000-0000-0000-0000-000000000001"
+  },
+  "requestId": "10000000-0000-0000-0000-000000000001"
+}

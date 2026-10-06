@@ -1,0 +1,12 @@
+{
+  "protocolVersion": "1.0",
+  "messageId": "30000000-0000-0000-0000-000000000002",
+  "messageType": "CHAT_PRIVATE_SEND",
+  "senderId": "20000000-0000-0000-0000-000000000001",
+  "timestamp": "2026-10-05T08:05:00Z",
+  "payload": {
+    "recipientId": "20000000-0000-0000-0000-000000000002",
+    "text": "Private hello"
+  },
+  "requestId": null
+}

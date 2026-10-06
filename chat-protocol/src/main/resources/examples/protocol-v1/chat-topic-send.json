@@ -1,0 +1,12 @@
+{
+  "protocolVersion": "1.0",
+  "messageId": "30000000-0000-0000-0000-000000000003",
+  "messageType": "CHAT_TOPIC_SEND",
+  "senderId": "20000000-0000-0000-0000-000000000001",
+  "timestamp": "2026-10-05T08:06:00Z",
+  "payload": {
+    "topicId": "general",
+    "text": "Topic hello"
+  },
+  "requestId": null
+}

@@ -1,0 +1,10 @@
+com\smapps\chat\protocol\validation\ProtocolValidatorTest.class
+com\smapps\chat\protocol\error\ErrorCatalogTest.class
+com\smapps\chat\protocol\type\ErrorCodeTest.class
+com\smapps\chat\protocol\type\MessageTypeTest.class
+com\smapps\chat\protocol\type\FileStatusTest.class
+com\smapps\chat\protocol\codec\ProtocolCodecTest.class
+com\smapps\chat\protocol\file\FileTransferHttpContractTest.class
+com\smapps\chat\protocol\file\FileAccessPolicyTest.class
+com\smapps\chat\protocol\auth\RegisterRequestTest.class
+com\smapps\chat\protocol\envelope\EnvelopeTest.class

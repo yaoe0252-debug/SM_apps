@@ -1,0 +1,12 @@
+{
+  "protocolVersion": "1.0",
+  "messageId": "10000000-0000-0000-0000-000000000001",
+  "messageType": "REGISTER_REQUEST",
+  "senderId": null,
+  "timestamp": "2026-10-05T08:00:00Z",
+  "payload": {
+    "username": "alice_demo",
+    "password": "Example-Only-Password"
+  },
+  "requestId": null
+}

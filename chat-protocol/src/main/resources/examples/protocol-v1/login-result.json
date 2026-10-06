@@ -1,0 +1,13 @@
+{
+  "protocolVersion": "1.0",
+  "messageId": "11000000-0000-0000-0000-000000000002",
+  "messageType": "LOGIN_RESULT",
+  "senderId": null,
+  "timestamp": "2026-10-05T08:01:01Z",
+  "payload": {
+    "sessionToken": "example-session-token-with-at-least-32-characters",
+    "expiresAt": "2026-10-06T08:01:01Z",
+    "userId": "20000000-0000-0000-0000-000000000001"
+  },
+  "requestId": "10000000-0000-0000-0000-000000000002"
+}

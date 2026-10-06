@@ -1,0 +1,12 @@
+{
+  "protocolVersion": "1.0",
+  "messageId": "10000000-0000-0000-0000-000000000004",
+  "messageType": "RESUME_REQUEST",
+  "senderId": null,
+  "timestamp": "2026-10-05T08:03:00Z",
+  "payload": {
+    "sessionToken": "example-session-token-with-at-least-32-characters",
+    "cursor": "conversation-1:42"
+  },
+  "requestId": null
+}

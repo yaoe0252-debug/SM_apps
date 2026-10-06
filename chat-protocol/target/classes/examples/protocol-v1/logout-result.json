@@ -1,0 +1,11 @@
+{
+  "protocolVersion": "1.0",
+  "messageId": "11000000-0000-0000-0000-000000000003",
+  "messageType": "LOGOUT_RESULT",
+  "senderId": "20000000-0000-0000-0000-000000000001",
+  "timestamp": "2026-10-05T08:02:01Z",
+  "payload": {
+    "alreadyInactive": false
+  },
+  "requestId": "10000000-0000-0000-0000-000000000003"
+}
